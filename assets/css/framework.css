@@ -7,6 +7,7 @@
 .container {
   max-width: 1170px;
   margin: 0 auto;
+  width: 100%;
 }
 
 [class*="col-"] {
@@ -98,7 +99,10 @@
   width: 100%;
 }
 
-@media all and (max-width: 767px) { /* sm */
+@media all and (max-width: 767px) {
+  body {
+    background-color: red;
+  }
   .col-sm-1 {
     width: calc(100%/12*1);
   }
@@ -174,7 +178,10 @@
   }
 }
 
-@media all and (min-width: 768px) and (max-width: 991px) { /* md */
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body {
+    background-color: blue;
+  }
   .col-md-1 {
     width: calc(100%/12*1);
   }
@@ -250,7 +257,7 @@
   }
 }
 
-@media all and (min-width: 992px) { /* la */
+@media all and (min-width: 992px) {
   .col-la-1 {
     width: calc(100%/12*1);
   }

@@ -3,20 +3,32 @@ body {
   text-align: center;
 }
 
+.row {
+  width: 100%
+}
+
 @media all and (max-width: 767px) {
+  body {
     font-size: 0.8em;
   }
   img {
     height: 100px;
+  }
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
+  body {
+    font-size: 1em;
+  }
   img {
     height: 150px;
   }
 }
 
 @media all and (min-width: 992px) {
+  body {
+    font-size: 1.2em;
+  }
   img {
     height: 200px;
   }
