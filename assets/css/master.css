@@ -1,0 +1,24 @@
+body {
+  font-size: 14px;
+  text-align: center;
+}
+
+@media all and (max-width: 767px) { /* sm */
+  body {
+    font-size: 0.8em;
+  }
+  img {
+    height: 100px;
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) { /* md */
+  img {
+    height: 150px;
+  }
+}
+
+@media all and (min-width: 992px) { /* la */
+  img {
+    height: 200px;
+  }
+}
