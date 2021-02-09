@@ -3,21 +3,20 @@ body {
   text-align: center;
 }
 
-@media all and (max-width: 767px) { /* sm */
-  body {
+@media all and (max-width: 767px) {
     font-size: 0.8em;
   }
   img {
     height: 100px;
 }
 
-@media all and (min-width: 768px) and (max-width: 991px) { /* md */
+@media all and (min-width: 768px) and (max-width: 991px) {
   img {
     height: 150px;
   }
 }
 
-@media all and (min-width: 992px) { /* la */
+@media all and (min-width: 992px) {
   img {
     height: 200px;
   }
