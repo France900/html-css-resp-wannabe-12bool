@@ -7,12 +7,29 @@ body {
   width: 100%
 }
 
+.img-bg {
+  background-color: orange;
+}
+
+.img-bg img {
+  background-color: blue;
+  border-radius: 50%;
+}
+
+h1,h2,h3 {
+  line-height: 2em;
+}
+
 @media all and (max-width: 767px) {
   body {
     font-size: 0.8em;
   }
   img {
     height: 100px;
+    margin-top: 10px;
+  }
+  hr {
+    margin-bottom: 25px;
   }
 }
 
@@ -22,6 +39,10 @@ body {
   }
   img {
     height: 150px;
+    margin-top: 15px;
+  }
+  hr {
+    margin-bottom: 30px;
   }
 }
 
@@ -31,5 +52,9 @@ body {
   }
   img {
     height: 200px;
+    margin-top: 20px;
+  }
+  hr {
+    margin-bottom: 35px;
   }
 }
